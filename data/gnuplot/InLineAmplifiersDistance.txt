@@ -1,0 +1,8 @@
+%GRAPHTYPE
+set output "%GNUPLOTFILE"
+set xrange [%DISTMIN:%DISTMAX]
+set yrange [%OSNRMIN:%OSNRMAX]
+set xl "%INLINEXLABEL"
+set yl "%INLINEYLABEL"
+set key under nobox height 2
+plot "%GREATERRESULT" w p pt 5 lc 2 t "%ABOVETHRESH", "%LESSERRESULT" w p pt 5 lc 1 t "%UNDERTHRESH"

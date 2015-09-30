@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=SSON
+Terminal=false
+Icon=sson
+Comment=Simulator for Slice Optical Networks
+Comment[fr_FR]=Simulateur pour Réseaux Optiques Slice
+Comment[pt_BR]=Simulador para Redes Ópticas Slice
+Exec=sson

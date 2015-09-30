@@ -1,0 +1,8 @@
+%GRAPHTYPE
+set output "%GNUPLOTFILE"
+set grid xt yt myt
+set log y
+set xrange [%REGNMIN:%REGNMAX]
+set xl "%REGNXLABEL"
+set yl "%REGNYLABEL"
+plot "%RESULTSPATH" w lp lw 2 notitle

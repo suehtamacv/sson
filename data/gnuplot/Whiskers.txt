@@ -1,0 +1,13 @@
+%GRAPHTYPE
+set output "%GNUPLOTFILE"
+set style fill solid 0.25 border -1
+set style boxplot outliers pointtype 7
+set style data boxplot
+set boxwidth 1
+set pointsize 0.5
+set log y
+set grid xt yt myt
+unset xtics
+set xrange [0:2]
+set yl "%WHISKERSYLABEL"
+plot "%RESULTSPATH" u (1):1 notitle

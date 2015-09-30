@@ -1,0 +1,13 @@
+%GRAPHTYPE
+set style data histogram
+set style histogram cluster gap 1
+set style fill solid border -1
+set grid yt myt 
+set boxwidth 0.9
+set log y
+set output "%GNUPLOTFILE"
+set title "%SLOTSTITLE"
+set xl "%SLOTSXLABEL"
+set yl "%SLOTSYLABEL"
+set key under nobox height 2
+plot "%RESULTSPATH" u 3:xtic(1) t "%SLOTSQUALITY", "%RESULTSPATH" u 4 t "%SLOTSRESOURCES"

@@ -2882,6 +2882,8 @@ void MainWindow::Slot_Screen4_SaveGraph() {
 
             if (Filter == "TeX Files (*.tex)") {
                 Slot_Screen4_RefreshGraph(1000, Screen4_EPS);
+            } else if (Filter == "Image Files (*.png)") {
+                Slot_Screen4_RefreshGraph(1000, Screen4_PNG);
             }
 
             while (Screen4_LastPlotted.elapsed() < 2000) {

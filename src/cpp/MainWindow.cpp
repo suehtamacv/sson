@@ -2526,6 +2526,7 @@ void MainWindow::Set_Screen4() {
     Screen4_ButtonToggleToTable->setText(tr("Table"));
     Screen4_ButtonToggleToTable->setMinimumSize(150, 50);
     Screen4_ButtonToggleToTable->setMaximumSize(150, 50);
+    Screen4_ButtonToggleToTable->setEnabled(false);
 
     Screen4_ButtonToggleToGraph = new QPushButton(Screen4);
     Screen4_ButtonToggleToGraph->setText(tr("Graph"));
@@ -2544,6 +2545,7 @@ void MainWindow::Set_Screen4() {
     Screen4_PlotScreen->setMaximumSize(600, 400);
 
     Screen4_ProgressBar = new QProgressBar(this);
+    Screen4_ProgressBar->setTextVisible(false);
     Screen4_ProgressBar->setMinimum(0);
     Screen4_ProgressBar->setValue(0);
 
@@ -2578,6 +2580,15 @@ void MainWindow::Set_Screen4() {
             SLOT(Slot_Screen4_RefreshTable()));
 
     connect(Screen4_ButtonToggleToGraph, SIGNAL(released()),
+            Screen4_ResultsTable, SLOT(hide()));
+    connect(Screen4_ButtonToggleToGraph, SIGNAL(released()),
+            Screen4_PlotScreen, SLOT(show()));
+    connect(Screen4_ButtonToggleToTable, SIGNAL(released()),
+            Screen4_PlotScreen, SLOT(hide()));
+    connect(Screen4_ButtonToggleToTable, SIGNAL(released()),
+            Screen4_ResultsTable, SLOT(show()));
+
+    connect(Screen4_ButtonToggleToGraph, SIGNAL(released()),
             Screen4_ButtonToggleToTable, SLOT(show()));
     connect(Screen4_ButtonToggleToGraph, SIGNAL(released()),
             Screen4_ButtonToggleToGraph, SLOT(hide()));
@@ -2585,15 +2596,6 @@ void MainWindow::Set_Screen4() {
             Screen4_ButtonToggleToTable, SLOT(hide()));
     connect(Screen4_ButtonToggleToTable, SIGNAL(released()),
             Screen4_ButtonToggleToGraph, SLOT(show()));
-
-    connect(Screen4_ButtonToggleToGraph, SIGNAL(released()),
-            Screen4_PlotScreen, SLOT(show()));
-    connect(Screen4_ButtonToggleToGraph, SIGNAL(released()),
-            Screen4_ResultsTable, SLOT(hide()));
-    connect(Screen4_ButtonToggleToTable, SIGNAL(released()),
-            Screen4_PlotScreen, SLOT(hide()));
-    connect(Screen4_ButtonToggleToTable, SIGNAL(released()),
-            Screen4_ResultsTable, SLOT(show()));
 
     Screen4_PlotScreen->setPixmap(QPixmap(gnuplot_TempPlot->fileName()));
 
@@ -2628,24 +2630,6 @@ void MainWindow::Show_Screen4() {
             SLOT(Slot_Screen4_RefreshGraph()));
     connect(Screen4_ReplotSaveButton, SIGNAL(released()), this,
             SLOT(Slot_Screen4_RefreshTable()));
-
-    connect(Screen4_ButtonToggleToGraph, SIGNAL(released()),
-            Screen4_ButtonToggleToTable, SLOT(show()));
-    connect(Screen4_ButtonToggleToGraph, SIGNAL(released()),
-            Screen4_ButtonToggleToGraph, SLOT(hide()));
-    connect(Screen4_ButtonToggleToTable, SIGNAL(released()),
-            Screen4_ButtonToggleToTable, SLOT(hide()));
-    connect(Screen4_ButtonToggleToTable, SIGNAL(released()),
-            Screen4_ButtonToggleToGraph, SLOT(show()));
-
-    connect(Screen4_ButtonToggleToGraph, SIGNAL(released()),
-            Screen4_PlotScreen, SLOT(show()));
-    connect(Screen4_ButtonToggleToGraph, SIGNAL(released()),
-            Screen4_ResultsTable, SLOT(hide()));
-    connect(Screen4_ButtonToggleToTable, SIGNAL(released()),
-            Screen4_PlotScreen, SLOT(hide()));
-    connect(Screen4_ButtonToggleToTable, SIGNAL(released()),
-            Screen4_ResultsTable, SLOT(show()));
 
     Screen4_PlotScreen->setPixmap(QPixmap(gnuplot_TempPlot->fileName()));
 
@@ -2799,16 +2783,19 @@ bool MainWindow::Slot_Screen4_RefreshGraph(long double WaitTime,
         FILE *fp;
         fp = popen(Executable_Path.c_str(), "w");
         fprintf(fp, Command.toStdString().c_str());
-        fflush(fp);
 
         if (GraphType == Screen4_EPS) {
             fprintf(fp, "unset output\n");
-            fflush(fp);
         }
 
+        fflush(fp);
         Delay(WaitTime);
         fprintf(fp, "quit\n");
-        Screen4_PlotScreen->setPixmap(QPixmap(gnuplot_TempPlot->fileName()));
+
+        if (GraphType == Screen4_PNG) {
+            Screen4_PlotScreen->setPixmap(QPixmap(gnuplot_TempPlot->fileName()));
+        }
+
         return true;
     }
 
@@ -2918,6 +2905,7 @@ void MainWindow::Slot_Screen4_SaveTable() {
 }
 
 void MainWindow::Slot_Screen4_SimulationEnded() {
+    Screen4_ButtonToggleToTable->setEnabled(true);
     Screen4_ReplotSaveButton->setText(tr("Export As..."));
     Screen4_ReplotSaveButton->adjustSize();
 

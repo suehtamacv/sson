@@ -325,8 +325,8 @@ bool MainWindow::InputCheck_Screen1() {
         Screen1_SimulationType_ComboBox->setStyleSheet("QComboBox");
     }
 
-    if ((Screen1_SimulationType_ComboBox->currentIndex() != Sim_RegenNum &&
-            Screen1_SimulationType_ComboBox->currentIndex() != _Sim_Null)) {
+    if ((Screen1_SimulationType_ComboBox->currentText() != tr("Regenerator Number")
+            && Screen1_SimulationType_ComboBox->currentIndex() != _Sim_Null)) {
         if ((!Screen1_NetworkType_TL_RadioButton->isChecked()) &&
                 (!Screen1_NetworkType_TP_RadioButton->isChecked())) {
             Screen1_NetworkType_TL_RadioButton->setStyleSheet("QRadioButton { border: 3px solid red; }");
@@ -718,7 +718,7 @@ void MainWindow::GraphicInterface_LoadValues(AuxiliarMain *Aux) {
     AuxiliarMain::choose_Simulation = (Simulations)
                                       Screen1_SimulationType_ComboBox->currentIndex();
 
-    if (Screen1_SimulationType_ComboBox->currentIndex() == Sim_Whiskers) {
+    if (Screen1_SimulationType_ComboBox->currentText() == tr("Whiskers")) {
         Def::maxSim_Whiskers = Screen2_RepSim_LineEdit->text().toInt();
     }
 
@@ -1002,18 +1002,6 @@ void MainWindow::Povoate_SimulationType() {
 
     Screen1_SimulationType_ComboBox->addItem(tr("Slots per Link Number"));
     Screen1_SimulationType_ComboBox->addItem(tr("Whiskers"));
-
-    if (Screen1_NetworkType_TP_RadioButton->isChecked()) {
-        QModelIndex Index = Screen1_SimulationType_ComboBox->model()->index(
-                                Screen1_SimulationType_ComboBox->count() - 1, 0);
-        Screen1_SimulationType_ComboBox->model()->setData(Index,
-                QVariant(Qt::NoItemFlags), Qt::UserRole - 1);
-
-        if (Selected == Screen1_SimulationType_ComboBox->count() - 1) {
-            SetSelected = false;
-        }
-    }
-
     Screen1_SimulationType_ComboBox->addItem(tr("Regenerator Number"));
 
     if (Screen1_NetworkType_TP_RadioButton->isChecked()) {
@@ -1220,7 +1208,7 @@ void MainWindow::retranslateUi() {
 
 void MainWindow::RPAlg_Change() {
     if (Screen2_RPAlg_ComboBox->currentIndex() != _RP_Null &&
-            Screen2_RPAlg_ComboBox->currentIndex() != RP_MSU) {
+            Screen2_RPAlg_ComboBox->currentText() != tr("MSU")) {
         Screen2_NumRegNode_Label->setEnabled(true);
         Screen2_NumRegNode_LineEdit->setEnabled(true);
     } else {
@@ -1250,9 +1238,8 @@ void MainWindow::Screen1_NextPage() {
         Screen2_InfoLayout->addRow(Screen2_RoutAlg_Label,
                                    Screen2_RoutAlg_ComboBox);
 
-        if ((Screen1_SimulationType_ComboBox->currentIndex() != Sim_RegenNum &&
-                Screen1_SimulationType_ComboBox->currentIndex() != _Sim_Null)) {
-
+        if ((Screen1_SimulationType_ComboBox->currentText() != tr("Regenerator Number")
+                && Screen1_SimulationType_ComboBox->currentIndex() != _Sim_Null)) {
             if (Screen1_NetworkType_TL_RadioButton->isChecked()) {
                 Screen2_RAAlg_Label->show();
                 Screen2_RAAlg_ComboBox->show();
@@ -1320,7 +1307,7 @@ void MainWindow::Screen1_NextPage() {
             Screen2_NumRegNode_LineEdit->hide();
         }
 
-        if (Screen1_SimulationType_ComboBox->currentIndex() == Sim_Whiskers) {
+        if (Screen1_SimulationType_ComboBox->currentText() == tr("Whiskers")) {
             Screen2_RepSim_Label->show();
             Screen2_RepSim_LineEdit->show();
 
@@ -1334,7 +1321,8 @@ void MainWindow::Screen1_NextPage() {
             Screen2_RepSim_LineEdit->hide();
         }
 
-        if (Screen1_SimulationType_ComboBox->currentIndex() == Sim_RegenNum) {
+        if (Screen1_SimulationType_ComboBox->currentText() ==
+                tr("Regenerator Number")) {
             Screen2_MinNumRegNode_Label->show();
             Screen2_MinNumRegNode_LineEdit->show();
             Screen2_MaxNumRegNode_Label->show();
@@ -1385,14 +1373,16 @@ void MainWindow::Screen2_NextPage() {
                                    Screen3_NodeArc_SS_RadioButton);
 
         if (Screen1_SimulationType_ComboBox->currentIndex() == _Sim_Null ||
-                Screen1_SimulationType_ComboBox->currentIndex() == Sim_AmpDist) {
+                Screen1_SimulationType_ComboBox->currentText() ==
+                tr("Inline Amplifiers Distance")) {
             Screen3_InfoLayout->removeWidget(Screen3_InLineAmpDist_Label);
             Screen3_InfoLayout->removeItem(Screen3_InLineAmpDist_LineEdit);
 
             Screen3_InLineAmpDist_Label->hide();
             Screen3_InLineAmpDist_LineEdit->hide();
 
-        } else if (Screen1_SimulationType_ComboBox->currentIndex() != Sim_AmpDist) {
+        } else if (Screen1_SimulationType_ComboBox->currentText() !=
+                   tr("Inline Amplifiers Distance")) {
             Screen3_InLineAmpDist_Label->show();
             Screen3_InLineAmpDist_LineEdit->show();
 
@@ -1401,7 +1391,8 @@ void MainWindow::Screen2_NextPage() {
                                        Screen3_InLineAmpDist_LineEdit);
         }
 
-        if (Screen1_SimulationType_ComboBox->currentIndex() == Sim_PbReq) {
+        if (Screen1_SimulationType_ComboBox->currentText() ==
+                tr("Blocking Probability")) {
             Screen3_MinLaNet_Label->show();
             Screen3_MaxLaNet_Label->show();
             Screen3_PointResLaNet_Label->show();
@@ -1433,8 +1424,9 @@ void MainWindow::Screen2_NextPage() {
             Screen3_PointResLaNet_LineEdit->hide();
         }
 
-        if (Screen1_SimulationType_ComboBox->currentIndex() == Sim_AmpDist ||
-                Screen1_SimulationType_ComboBox->currentIndex() == Sim_OSNR) {
+        if (Screen1_SimulationType_ComboBox->currentText() ==
+                tr("Inline Amplifiers Distance") ||
+                Screen1_SimulationType_ComboBox->currentText() == tr("OSNR")) {
             Screen3_MinOSNR_Label->show();
             Screen3_MaxOSNR_Label->show();
             Screen3_PointResOSNR_Label->show();
@@ -1466,7 +1458,7 @@ void MainWindow::Screen2_NextPage() {
             Screen3_PointResOSNR_LineEdit->hide();
         }
 
-        if (Screen2_RAAlg_ComboBox->currentIndex() == RA_Both) {
+        if (Screen2_RAAlg_ComboBox->currentText() == tr("Both")) {
             Screen3_RABothDecRatio_Label->show();
             Screen3_RABothDecRatio_LineEdit->show();
 
@@ -1480,7 +1472,8 @@ void MainWindow::Screen2_NextPage() {
             Screen3_RABothDecRatio_LineEdit->hide();
         }
 
-        if (Screen1_SimulationType_ComboBox->currentIndex() == Sim_SlotsNum) {
+        if (Screen1_SimulationType_ComboBox->currentText() ==
+                tr("Slots per Link Number")) {
             Screen3_LaNet_Label->show();
             Screen3_MinSPL_Label->show();
             Screen3_MaxSPL_Label->show();
@@ -1495,9 +1488,9 @@ void MainWindow::Screen2_NextPage() {
                                        Screen3_MinSPL_LineEdit);
             Screen3_InfoLayout->addRow(Screen3_MaxSPL_Label,
                                        Screen3_MaxSPL_LineEdit);
-        } else if (Screen1_SimulationType_ComboBox->currentIndex() == Sim_Whiskers ||
-                   Screen1_SimulationType_ComboBox->currentIndex() == Sim_RegenNum ||
-                   Screen1_SimulationType_ComboBox->currentIndex() == Sim_OSNR) {
+        } else if (Screen1_SimulationType_ComboBox->currentText() == tr("Whiskers") ||
+                   Screen1_SimulationType_ComboBox->currentText() == tr("Regenerator Number") ||
+                   Screen1_SimulationType_ComboBox->currentText() == tr("OSNR")) {
 
             Screen3_InfoLayout->removeWidget(Screen3_MinSPL_Label);
             Screen3_InfoLayout->removeWidget(Screen3_MaxSPL_Label);
@@ -1531,7 +1524,8 @@ void MainWindow::Screen2_NextPage() {
             Screen3_MaxSPL_LineEdit->hide();
         }
 
-        if (Screen1_SimulationType_ComboBox->currentIndex() == Sim_AmpDist) {
+        if (Screen1_SimulationType_ComboBox->currentText() ==
+                tr("Inline Amplifiers Distance")) {
             Screen3_MinInLineAmpDist_Label->show();
             Screen3_MinInLineAmpDist_LineEdit->show();
             Screen3_MaxInLineAmpDist_Label->show();
@@ -1564,7 +1558,8 @@ void MainWindow::Screen2_NextPage() {
             Screen3_PointResInLineAmpDist_LineEdit->hide();
         }
 
-        if (Screen1_SimulationType_ComboBox->currentIndex() == Sim_AmpDist ||
+        if (Screen1_SimulationType_ComboBox->currentText() ==
+                tr("Inline Amplifiers Distance") ||
                 Screen1_SimulationType_ComboBox->currentIndex() == _Sim_Null) {
             Screen3_InfoLayout->removeWidget(Screen3_MinNumBloqReq_Label);
             Screen3_InfoLayout->removeWidget(Screen3_MinNumBloqReq_LineEdit);

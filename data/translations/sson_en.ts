@@ -21,24 +21,25 @@
     </message>
     <message>
         <location filename="../../src/cpp/AboutPage.cpp" line="6"/>
+        <location filename="../../src/cpp/AboutPage.cpp" line="69"/>
         <source>About SSON</source>
         <translation>About SSON</translation>
     </message>
     <message>
         <location filename="../../src/cpp/AboutPage.cpp" line="33"/>
-        <location filename="../../src/cpp/AboutPage.cpp" line="70"/>
+        <location filename="../../src/cpp/AboutPage.cpp" line="71"/>
         <source>Simulator for Slice Optical Networks</source>
         <translation>Simulator for Slice Optical Networks</translation>
     </message>
     <message>
         <location filename="../../src/cpp/AboutPage.cpp" line="44"/>
-        <location filename="../../src/cpp/AboutPage.cpp" line="71"/>
+        <location filename="../../src/cpp/AboutPage.cpp" line="72"/>
         <source>SSON is developed by the &lt;a href=&quot;http://suehtamacv.github.io/eons-ufcg/&quot;&gt;Radiometry Research Group&lt;/a&gt;, under the &lt;a href=&quot;http://suehtamacv.github.io/eons-ufcg/linhas/modelagem/&quot;&gt;Computational Modeling of Electromagnetic Effects&lt;/a&gt; line of research.</source>
         <translation>SSON is developed by the &lt;a href=&quot;http://suehtamacv.github.io/eons-ufcg/&quot;&gt;Radiometry Research Group&lt;/a&gt;, under the &lt;a href=&quot;http://suehtamacv.github.io/eons-ufcg/linhas/modelagem/&quot;&gt;Computational Modeling of Electromagnetic Effects&lt;/a&gt; line of research.</translation>
     </message>
     <message>
         <location filename="../../src/cpp/AboutPage.cpp" line="50"/>
-        <location filename="../../src/cpp/AboutPage.cpp" line="72"/>
+        <location filename="../../src/cpp/AboutPage.cpp" line="73"/>
         <source>More information about SSON can be found &lt;a href=&quot;http://suehtamacv.github.io/eons-ufcg/linhas/modelagem/eons.html&quot;&gt;here&lt;/a&gt;.</source>
         <translation>More information about SSON can be found &lt;a href=&quot;http://suehtamacv.github.io/eons-ufcg/linhas/modelagem/eons.html&quot;&gt;here&lt;/a&gt;.</translation>
     </message>
@@ -50,77 +51,77 @@
         <translation type="vanished">Elastic Optical Network Simulator</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="291"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="941"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="284"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1040"/>
         <source>&amp;File</source>
         <translation>&amp;File</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="292"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="942"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="285"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1041"/>
         <source>&amp;Edit</source>
         <translation>&amp;Edit</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="294"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="950"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="287"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1049"/>
         <source>&amp;Choose Language</source>
         <translation>&amp;Choose Language</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="293"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="944"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="286"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1043"/>
         <source>&amp;Help</source>
         <translation>&amp;Help</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="261"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="945"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="254"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1044"/>
         <source>&amp;Open Simulation</source>
         <translation>&amp;Open Simulation</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="262"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="946"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="255"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1045"/>
         <source>&amp;Save Simulation</source>
         <translation>&amp;Save Simulation</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="263"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="947"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="256"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1046"/>
         <source>&amp;Exit</source>
         <translation>&amp;Exit</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="265"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="948"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="258"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1047"/>
         <source>Open &amp;Default Values</source>
         <translation>Open &amp;Default Values</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="268"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="949"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="261"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1048"/>
         <source>&amp;About</source>
         <translation>&amp;About</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="972"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2721"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2862"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1064"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2516"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2647"/>
         <source>Replot</source>
         <translation>Replot</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="973"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2726"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2864"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1065"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2521"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2649"/>
         <source>Table</source>
         <translation>Table</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="974"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2731"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2866"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1066"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2526"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2651"/>
         <source>Graph</source>
         <translation>Graph</translation>
     </message>
@@ -129,20 +130,19 @@
         <translation type="vanished">EONS - Error</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1324"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1622"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2901"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1354"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1583"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2686"/>
         <source>Some values were not inputted or did not matched the proper type.</source>
         <translation>Some values were not inputted or did not matched the proper type.</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1605"/>
         <source>Available Regenerators</source>
-        <translation>Available Regenerators</translation>
+        <translation type="vanished">Available Regenerators</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1621"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2900"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1582"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2685"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -151,717 +151,674 @@
         <translation type="vanished">EONS - Warning</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2874"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2659"/>
         <source>The simulation is about to start.
 Do you want to save your changes?</source>
         <translation>The simulation is about to start.
 Do you want to save your changes?</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2878"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2966"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2663"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2751"/>
         <source>Save</source>
         <translation>Save</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2879"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2967"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2664"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2752"/>
         <source>No</source>
         <translation>No</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1939"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2880"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2968"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1853"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2665"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2753"/>
         <source>Cancel</source>
         <translation>Cancel</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="976"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2055"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1068"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1941"/>
         <source>New Simulation</source>
         <translation>New Simulation</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="977"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2056"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1069"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1942"/>
         <source>Exit</source>
         <translation>Exit</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="978"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2057"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1070"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1943"/>
         <source>Open Simulation</source>
         <translation>Open Simulation</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="980"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2116"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1072"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2002"/>
         <source>Choose a simulation:</source>
         <translation>Choose a simulation:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="981"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2119"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1073"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2005"/>
         <source>Choose a topology:</source>
         <translation>Choose a topology:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="982"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2120"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1074"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2006"/>
         <source>Open Topology</source>
         <translation>Open Topology</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="987"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2122"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1079"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2008"/>
         <source>Pacific Bell</source>
         <translation>Pacific Bell</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="988"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2123"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1080"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2009"/>
         <source>NSFNet</source>
         <translation>NSFNet</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="989"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2124"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1081"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2010"/>
         <source>NSFNet Modified (Reduced)</source>
         <translation>NSFNet Modified (Reduced)</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="990"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2125"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1082"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2011"/>
         <source>Point-To-Point with 4 Nodes</source>
         <translation>Point-To-Point with 4 Nodes</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="991"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2126"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1083"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2012"/>
         <source>Point-To-Point with 8 Nodes</source>
         <translation>Point-To-Point with 8 Nodes</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="992"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2127"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1084"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2013"/>
         <source>Top1</source>
         <translation>Top1</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="993"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2128"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1085"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2014"/>
         <source>Top2</source>
         <translation>Top2</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="994"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2129"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1086"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2015"/>
         <source>European</source>
         <translation>European</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="995"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2130"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1087"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2016"/>
         <source>German</source>
         <translation>German</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="996"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2131"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1088"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2017"/>
         <source>US Backbone</source>
         <translation>US Backbone</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1003"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2133"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1095"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2019"/>
         <source>Choose the network type:</source>
         <translation>Choose the network type:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1004"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2134"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1096"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2020"/>
         <source>Translucent</source>
         <translation>Translucent</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1005"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2135"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1097"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2021"/>
         <source>Transparent</source>
         <translation>Transparent</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1006"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1008"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2140"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2257"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1098"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1100"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2026"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2143"/>
         <source>Next</source>
         <translation>Next</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1009"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1081"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2258"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2496"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1101"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1172"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2144"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2361"/>
         <source>Back</source>
         <translation>Back</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1010"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2262"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1102"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2148"/>
         <source>Choose a routing algorithm:</source>
         <translation>Choose a routing algorithm:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1015"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2264"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1107"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2150"/>
         <source>Minimum Hops</source>
         <translation>Minimum Hops</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1016"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2265"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1108"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2151"/>
         <source>Shortest Path</source>
         <translation>Shortest Path</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1017"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2266"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1109"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2152"/>
         <source>LOR Allocation Possibilities</source>
         <translation>LOR Allocation Possibilities</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1018"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2267"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1110"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2153"/>
         <source>LOR Availability</source>
         <translation>LOR Availability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1019"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2268"/>
         <source>PSR</source>
-        <translation>PSR</translation>
+        <translation type="vanished">PSR</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1020"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2269"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1111"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2154"/>
         <source>OSNR-R</source>
         <translation>OSNR-R</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1026"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2272"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1117"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2157"/>
         <source>Choose the spectrum assigment algorithm:</source>
         <translation>Choose the spectrum assigment algorithm:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1030"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2274"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1121"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2159"/>
         <source>Random</source>
         <translation>Random</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1031"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2275"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1122"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2160"/>
         <source>FirstFit</source>
         <translation>FirstFit</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1032"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2276"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1123"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2161"/>
         <source>Most Used</source>
         <translation>Most Used</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1038"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2278"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1129"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2163"/>
         <source>Choose the RA algorithm:</source>
         <translation>Choose the RA algorithm:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1043"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2280"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1134"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2165"/>
         <source>FNS</source>
         <translation>FNS</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1042"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2281"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1133"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2166"/>
         <source>FLR</source>
         <translation>FLR</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="56"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="939"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="54"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1038"/>
         <source>Simulator for Slice Optical Networks</source>
         <translation>Simulator for Slice Optical Networks</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="266"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="943"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="259"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1042"/>
         <source>&amp;Set Additional Parameters</source>
         <translation>&amp;Set Additional Parameters</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="798"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="801"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2984"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2991"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="965"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="968"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2769"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2776"/>
         <source>SSON - Information</source>
         <translation>SSON - Information</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="958"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1057"/>
         <source>Losses in the SSS elements</source>
         <translation>Losses in the SSS elements</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="959"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1058"/>
         <source>Frequency</source>
         <translation>Frequency</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="960"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1059"/>
         <source>Reference Bandwidth</source>
         <translation>Reference Bandwidth</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="961"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1060"/>
         <source>Amplifier&apos;s Noise Factor</source>
         <translation>Amplifier&apos;s Noise Factor</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="962"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1061"/>
         <source>Input OSNR</source>
         <translation>Input OSNR</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="963"/>
         <source>Number of Particles in PSO</source>
-        <translation>Number of Particles in PSO</translation>
+        <translation type="vanished">Number of Particles in PSO</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="964"/>
         <source>Number of Iterations in PSO</source>
-        <translation>Number of Iterations in PSO</translation>
+        <translation type="vanished">Number of Iterations in PSO</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="965"/>
         <source>Number of Particles in AWR Simulation</source>
-        <translation>Number of Particles in AWR Simulation</translation>
+        <translation type="vanished">Number of Particles in AWR Simulation</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="966"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1062"/>
         <source>Bitrate of each Regenerator</source>
         <translation>Bitrate of each Regenerator</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="967"/>
         <source>Number of Generations</source>
-        <translation>Number of Generations</translation>
+        <translation type="vanished">Number of Generations</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="968"/>
         <source>Number of Genes in each Individual</source>
-        <translation>Number of Genes in each Individual</translation>
+        <translation type="vanished">Number of Genes in each Individual</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="969"/>
         <source>The Breeding Probability of each Individual</source>
-        <translation>The Breeding Probability of each Individual</translation>
+        <translation type="vanished">The Breeding Probability of each Individual</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="970"/>
         <source>The Mutation Probability of each Individual</source>
-        <translation>The Mutation Probability of each Individual</translation>
+        <translation type="vanished">The Mutation Probability of each Individual</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1044"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2282"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1135"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1461"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2167"/>
         <source>Both</source>
         <translation>Both</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1049"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2284"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1140"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2169"/>
         <source>Choose the RP algorithm:</source>
         <translation>Choose the RP algorithm:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1053"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2286"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1144"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2171"/>
         <source>NDF</source>
         <translation>NDF</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1054"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2287"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1145"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2172"/>
         <source>CNF</source>
         <translation>CNF</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1055"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2288"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1146"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2173"/>
         <source>TLP</source>
         <translation>TLP</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1056"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2289"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1147"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2174"/>
         <source>SQP</source>
         <translation>SQP</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1057"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2290"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1148"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2175"/>
         <source>MU</source>
         <translation>MU</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1058"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2291"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1149"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1211"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2176"/>
         <source>MSU</source>
         <translation>MSU</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1064"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2294"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1155"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2179"/>
         <source>How many repetitions of the simulation?</source>
         <translation>How many repetitions of the simulation?</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1065"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2296"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1156"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2181"/>
         <source>Enter Slots Bandwidth:</source>
         <translation>Enter Slots Bandwidth:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1067"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2299"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1158"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2184"/>
         <source>Enter the total number of regenerators:</source>
         <translation>Enter the total number of regenerators:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1069"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2301"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1160"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2186"/>
         <source>Enter the number of regenerators per node:</source>
         <translation>Enter the number of regenerators per node:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1070"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2304"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1161"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2189"/>
         <source>Enter the connections deactivation rate:</source>
         <translation>Enter the connections deactivation rate:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1072"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2307"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1163"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2192"/>
         <source>Enter the minimum number of regenerators per node:</source>
         <translation>Enter the minimum number of regenerators per node:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1074"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2309"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1165"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2194"/>
         <source>Enter the maximum number of regenerators per node:</source>
         <translation>Enter the maximum number of regenerators per node:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1075"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2354"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1166"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2239"/>
         <source>Regenerator Allocation Algorithm</source>
         <translation>Regenerator Allocation Algorithm</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1076"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2355"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1167"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2240"/>
         <source>Regenerator Placement Algorithm</source>
         <translation>Regenerator Placement Algorithm</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1078"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2357"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1169"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2242"/>
         <source>Common values are 1.5625, 3.125, 6.25 or 12.5</source>
         <translation>Common values are 1.5625, 3.125, 6.25 or 12.5</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1080"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2495"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1171"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2360"/>
         <source>Simulate</source>
         <translation>Simulate</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1083"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2499"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1174"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2364"/>
         <source>Enter the distance between InLine Amplifiers:</source>
         <translation>Enter the distance between InLine Amplifiers:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1084"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2501"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1175"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2366"/>
         <source>Enter the minimum load:</source>
         <translation>Enter the minimum load:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1085"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2502"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1176"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2367"/>
         <source>Enter the maximum load:</source>
         <translation>Enter the maximum load:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1086"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2503"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1177"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2368"/>
         <source>Points in the result (LaNet):</source>
         <translation>Points in the result (LaNet):</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1087"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2505"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1178"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2370"/>
         <source>Enter the minimum OSNR:</source>
         <translation>Enter the minimum OSNR:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1088"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2506"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1179"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2371"/>
         <source>Enter the maximum OSNR:</source>
         <translation>Enter the maximum OSNR:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1089"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2507"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1180"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2372"/>
         <source>Points in the result (OSNR):</source>
         <translation>Points in the result (OSNR):</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1090"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2509"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1181"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2374"/>
         <source>Enter the network load:</source>
         <translation>Enter the network load:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1092"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2512"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1183"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2377"/>
         <source>Enter the minimum Slots per Link number:</source>
         <translation>Enter the minimum Slots per Link number:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1094"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2514"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1185"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2379"/>
         <source>Enter the maximum Slots per Link number:</source>
         <translation>Enter the maximum Slots per Link number:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1095"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2516"/>
         <source>Enter the PSR Paradigm:</source>
-        <translation>Enter the PSR Paradigm:</translation>
+        <translation type="vanished">Enter the PSR Paradigm:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1100"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2518"/>
         <source>Matricial</source>
-        <translation>Matricial</translation>
+        <translation type="vanished">Matricial</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1101"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2519"/>
         <source>Tensorial</source>
-        <translation>Tensorial</translation>
+        <translation type="vanished">Tensorial</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1102"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2520"/>
         <source>AWR</source>
-        <translation>AWR</translation>
+        <translation type="vanished">AWR</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1108"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2522"/>
         <source>Enter the first cost for the PSR:</source>
-        <translation>Enter the first cost for the PSR:</translation>
+        <translation type="vanished">Enter the first cost for the PSR:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1112"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2524"/>
         <source>Distance</source>
-        <translation>Distance</translation>
+        <translation type="vanished">Distance</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1113"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2525"/>
         <source>Noise</source>
-        <translation>Noise</translation>
+        <translation type="vanished">Noise</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1114"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2526"/>
         <source>Normalized Noise</source>
-        <translation>Normalized Noise</translation>
+        <translation type="vanished">Normalized Noise</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1119"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2528"/>
         <source>Enter the second cost for the PSR:</source>
-        <translation>Enter the second cost for the PSR:</translation>
+        <translation type="vanished">Enter the second cost for the PSR:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1123"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2530"/>
         <source>Availability</source>
-        <translation>Availability</translation>
+        <translation type="vanished">Availability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1124"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2531"/>
         <source>Allocation Possibilities</source>
-        <translation>Allocation Possibilities</translation>
+        <translation type="vanished">Allocation Possibilities</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1125"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2532"/>
         <source>Normalized Allocation Possibilities</source>
-        <translation>Normalized Allocation Possibilities</translation>
+        <translation type="vanished">Normalized Allocation Possibilities</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1126"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2533"/>
         <source>Occupability</source>
-        <translation>Occupability</translation>
+        <translation type="vanished">Occupability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1132"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2536"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1187"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2382"/>
         <source>Enter the minimum distance between inline amplifiers:</source>
         <translation>Enter the minimum distance between inline amplifiers:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1134"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2538"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1189"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2384"/>
         <source>Enter the maximum distance between inline amplifiers:</source>
         <translation>Enter the maximum distance between inline amplifiers:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1136"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2540"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1191"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2386"/>
         <source>Points in the result (Inline Amplifiers Distance):</source>
         <translation>Points in the result (Inline Amplifiers Distance):</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1137"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2542"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1192"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2388"/>
         <source>Enter the input power:</source>
         <translation>Enter the input power:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1138"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2544"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1193"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2390"/>
         <source>Enter the fiber&apos;s reference power:</source>
         <translation>Enter the fiber&apos;s reference power:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1139"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2546"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1194"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2392"/>
         <source>Select the node architecture:</source>
         <translation>Select the node architecture:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1140"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2547"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1195"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2393"/>
         <source>Broadcast and Select</source>
         <translation>Broadcast and Select</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1141"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2548"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1196"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2394"/>
         <source>Spectrum Switching</source>
         <translation>Spectrum Switching</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1143"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2553"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1198"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2399"/>
         <source>Enter the minimum number of blocked requisitions before ending:</source>
         <translation>Enter the minimum number of blocked requisitions before ending:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1144"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2555"/>
         <source>Enter the minimum exponent:</source>
-        <translation>Enter the minimum exponent:</translation>
+        <translation type="vanished">Enter the minimum exponent:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1145"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2556"/>
         <source>Enter the maximum exponent:</source>
-        <translation>Enter the maximum exponent:</translation>
+        <translation type="vanished">Enter the maximum exponent:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1147"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2559"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1200"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2402"/>
         <source>Enter the threshold ratio between FNS and FLR:</source>
         <translation>Enter the threshold ratio between FNS and FLR:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1148"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2561"/>
         <source>Choose the PSR dimensionality:</source>
-        <translation>Choose the PSR dimensionality:</translation>
+        <translation type="vanished">Choose the PSR dimensionality:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1149"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2566"/>
         <source>Enter the third cost for the PSR:</source>
-        <translation>Enter the third cost for the PSR:</translation>
+        <translation type="vanished">Enter the third cost for the PSR:</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1154"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2568"/>
         <source>Normalized Bitrate</source>
-        <translation>Normalized Bitrate</translation>
+        <translation type="vanished">Normalized Bitrate</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1160"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1162"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1163"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2679"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2681"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2682"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1203"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1205"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1206"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2485"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2487"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2488"/>
         <source>La is the Connections Arrival Rate</source>
         <translation>La is the Connections Arrival Rate</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1323"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2923"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2941"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1353"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2708"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2726"/>
         <source>SSON - Error</source>
         <translation>SSON - Error</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2022"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1908"/>
         <source>SSON - Set Additional Parameters</source>
         <translation>SSON - Set Additional Parameters</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2873"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2961"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2658"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2746"/>
         <source>SSON - Warning</source>
         <translation>SSON - Warning</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="3072"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2862"/>
         <source>Export Graph As...</source>
         <translation>Export Graph As...</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="3073"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2863"/>
         <source>Image Files (*.png);;TeX Files (*.tex)</source>
         <translation>Image Files (*.png);;TeX Files (*.tex)</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="3111"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2904"/>
         <source>Export Results</source>
         <translation>Export Results</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="3126"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2919"/>
         <source>Export As...</source>
         <translation>Export As...</translation>
     </message>
@@ -878,150 +835,146 @@ Do you want to save your changes?</translation>
         <translation type="vanished">Save Results</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="3112"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2905"/>
         <source>Text Files (*.txt)</source>
         <translation>Text Files (*.txt)</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1725"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1834"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1860"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1673"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1771"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1797"/>
         <source>Network Load (Erlang)</source>
         <translation>Network Load (Erlang)</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1727"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1739"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1747"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1753"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1759"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1675"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1687"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1691"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1697"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1703"/>
         <source>Requisition Blocking Probability</source>
         <translation>Requisition Blocking Probability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1729"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1677"/>
         <source>In-Line Amplifiers Distance (km)</source>
         <translation>In-Line Amplifiers Distance (km)</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1731"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1737"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1848"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1679"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1685"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1785"/>
         <source>Input OSNR (dB)</source>
         <translation>Input OSNR (dB)</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1733"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1681"/>
         <source>Above Threshold</source>
         <translation>Above Threshold</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1735"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1683"/>
         <source>Under Threshold</source>
         <translation>Under Threshold</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1741"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1872"/>
         <source>Iteration</source>
-        <translation>Iteration</translation>
+        <translation type="vanished">Iteration</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1743"/>
         <source>Best Requisition Blocking Probability</source>
-        <translation>Best Requisition Blocking Probability</translation>
+        <translation type="vanished">Best Requisition Blocking Probability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1745"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1880"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1689"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1809"/>
         <source>Number of Regenerators per Node</source>
         <translation>Number of Regenerators per Node</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1749"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1693"/>
         <source>Reasons why Requisitions are Blocked</source>
         <translation>Reasons why Requisitions are Blocked</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1751"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1695"/>
         <source>Number of Slots per Link</source>
         <translation>Number of Slots per Link</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1755"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1699"/>
         <source>Quality</source>
         <translation>Quality</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1757"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1701"/>
         <source>Network Resources</source>
         <translation>Network Resources</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1836"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1850"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1882"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1888"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1773"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1787"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1811"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1817"/>
         <source>Req. Blocking Probability</source>
         <translation>Req. Blocking Probability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1838"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1775"/>
         <source>Req. Acceptance Probability</source>
         <translation>Req. Acceptance Probability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1840"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1852"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1777"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1789"/>
         <source>Slots Blocking Probability</source>
         <translation>Slots Blocking Probability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1842"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1854"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1779"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1791"/>
         <source>Average Number of Hops in Established Routes</source>
         <translation>Average Number of Hops in Established Routes</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1862"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1799"/>
         <source>Total Req. Blocking Probability</source>
         <translation>Total Req. Blocking Probability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1864"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1801"/>
         <source>Quality-due Req. Blocking Probability</source>
         <translation>Quality-due Req. Blocking Probability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1866"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1803"/>
         <source>Network Resources-due Req. Blocking Probability</source>
         <translation>Network Resources-due Req. Blocking Probability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1874"/>
         <source>Best Req. Blocking Probability</source>
-        <translation>Best Req. Blocking Probability</translation>
+        <translation type="vanished">Best Req. Blocking Probability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1940"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1854"/>
         <source>Ok</source>
         <translation>Ok</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="953"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1946"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1052"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1860"/>
         <source>Parameter</source>
         <translation>Parameter</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="955"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1948"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1054"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1862"/>
         <source>Content</source>
         <translation>Content</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="957"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="1950"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1056"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1864"/>
         <source>Maximum Number of Requisitons</source>
         <translation>Maximum Number of Requisitons</translation>
     </message>
@@ -1030,7 +983,7 @@ Do you want to save your changes?</translation>
         <translation type="vanished">EONS - Set Additional Parameters</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2962"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2747"/>
         <source>You are about to start a new simulation.
 Do you want to save your changes?</source>
         <translation>You are about to start a new simulation.
@@ -1041,60 +994,74 @@ Do you want to save your changes?</translation>
         <translation type="vanished">EONS - Information</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="802"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2985"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="969"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2770"/>
         <source>There is a simulation running, wait for it to finish.</source>
         <translation>There is a simulation running, wait for it to finish.</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="799"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2992"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="966"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2777"/>
         <source>You have not started a simulation.</source>
         <translation>You have not started a simulation.</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2924"/>
-        <location filename="../../src/cpp/MainWindow.cpp" line="2942"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2709"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="2727"/>
         <source>There is a simulation already running.</source>
         <translation>There is a simulation already running.</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="820"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="987"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1395"/>
         <source>Blocking Probability</source>
         <translation>Blocking Probability</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="821"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="988"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1429"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1493"/>
         <source>OSNR</source>
         <translation>OSNR</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="823"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="990"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1377"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1385"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1428"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1528"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1562"/>
         <source>Inline Amplifiers Distance</source>
         <translation>Inline Amplifiers Distance</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="836"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1003"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1476"/>
         <source>Slots per Link Number</source>
         <translation>Slots per Link Number</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="837"/>
         <source>PSR Training</source>
-        <translation>PSR Training</translation>
+        <translation type="vanished">PSR Training</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="838"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="721"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1004"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1310"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1491"/>
         <source>Whiskers</source>
         <translation>Whiskers</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="840"/>
         <source>NSGA2</source>
-        <translation>NSGA2</translation>
+        <translation type="vanished">NSGA2</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/MainWindow.cpp" line="853"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="328"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1005"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1241"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1325"/>
+        <location filename="../../src/cpp/MainWindow.cpp" line="1492"/>
         <source>Regenerator Number</source>
         <translation>Regenerator Number</translation>
     </message>
@@ -1116,7 +1083,7 @@ Do you want to save your changes?</translation>
     </message>
     <message>
         <location filename="../../src/cpp/SaveLoadInfo.cpp" line="16"/>
-        <location filename="../../src/cpp/SaveLoadInfo.cpp" line="163"/>
+        <location filename="../../src/cpp/SaveLoadInfo.cpp" line="147"/>
         <source>SSON Files (*.sson)</source>
         <translation>SSON Files (*.sson)</translation>
     </message>
@@ -1131,19 +1098,19 @@ Do you want to save your changes?</translation>
         <translation>- Simulation File - Do not change the values in this file, bad things happen to people who do this, or the simulation just may not work.</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/SaveLoadInfo.cpp" line="152"/>
-        <location filename="../../src/cpp/SaveLoadInfo.cpp" line="173"/>
+        <location filename="../../src/cpp/SaveLoadInfo.cpp" line="136"/>
+        <location filename="../../src/cpp/SaveLoadInfo.cpp" line="157"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../../src/cpp/SaveLoadInfo.cpp" line="152"/>
-        <location filename="../../src/cpp/SaveLoadInfo.cpp" line="174"/>
+        <location filename="../../src/cpp/SaveLoadInfo.cpp" line="136"/>
+        <location filename="../../src/cpp/SaveLoadInfo.cpp" line="158"/>
         <source>File could not be open. </source>
         <translation>File could not be open. </translation>
     </message>
     <message>
-        <location filename="../../src/cpp/SaveLoadInfo.cpp" line="161"/>
+        <location filename="../../src/cpp/SaveLoadInfo.cpp" line="145"/>
         <source>SSON - Open file</source>
         <translation>SSON - Open file</translation>
     </message>
